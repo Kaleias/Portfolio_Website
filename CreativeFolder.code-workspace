@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../BitBurner"
+		},
+		{
+			"path": "../../../../../../xampp/htdocs"
+		},
+		{
+			"path": "../../PHP"
+		},
+		{
+			"path": "../../../../../../laragon/www/First-Test"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Personal",
+		"git.ignoreLimitWarning": true
+	}
+}
