@@ -8,10 +8,10 @@
 }
 
 :root{
-    --bg-color:#080808;
-    --sec-bg-color:#101010;
+    --bg-color:#0F172A;
+    --sec-bg-color:#1E293B;
     --text-color:white;
-    --main-color:#ea580c;   
+    --main-color:#38BDF8;   
 }
 
 html{
@@ -30,7 +30,7 @@ body{
     top: 0;
     left: 0;
     padding:  4rem 15%;
-    background: rgba(0, 0, 0, 0.3);
+    background: #1e293b1c;
     backdrop-filter: blur(10px);
     display: flex;
     justify-content: space-between;
@@ -69,8 +69,8 @@ body{
 span{
     background: linear-gradient(
     270deg,
-    #DF8908 10%,
-    #ff1d15 100%
+    #0979ad 10%,
+    #0f758f 100%
     );
     background-clip: text;
     color: transparent;
@@ -96,8 +96,8 @@ span{
     border-radius: 3rem;
     background: linear-gradient(
     270deg,
-    #DF8908 10%,
-    #ff1d15 100%
+    #033f5b 10%,
+    #1f859f 100%
     );
     letter-spacing: 1px;
     cursor: pointer;
@@ -377,6 +377,7 @@ section{
 
 .project-card p{
     font-size: 1.6rem;
+    text-align: center;
 }
 
 .contacts{
@@ -430,7 +431,7 @@ section{
 }
 
 .footer ul li a{
-    color: white;
+    color: var(--text-color);
     border: 3px solid transparent;
     transition: 0.3s ease-in-out;
 }
