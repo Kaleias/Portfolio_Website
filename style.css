@@ -37,6 +37,7 @@ body{
     align-items: center;
     z-index: 1000;
 }
+
 #menu-icon{
     font-size: 3.5rem;
     color: var(--main-color);
@@ -501,3 +502,4 @@ section{
         flex-direction: column-reverse;
     }
 }
+
